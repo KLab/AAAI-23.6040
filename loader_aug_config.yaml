@@ -1,0 +1,37 @@
+- function: freq_shift
+  probability: 0.212
+  params:
+    shift_min: -0.234
+    shift_max: 0.234
+- function: freq_mask
+  probability: 0.753
+  params:
+    mask_max: 13
+    mask_count: 2
+- function: time_mask
+  probability: 0.707
+  params:
+    mask_max: 11
+    mask_count: 4
+- function: freq_low_mask
+  probability: 0.833
+  params:
+    min_mask_range: 16
+    max_mask_range: 17
+- function: freq_flip_audio
+  probability: 0.017
+  params:
+    ~
+- function: white_noise
+  probability: 0.49
+  params:
+    sigma: 0.117
+- function: mask_beats
+  probability: 0.135
+  params:
+    drop_rate: 0.123
+- function: time_stretch_abs
+  probability: 0.652
+  params:
+    min_rate: 0.636
+    max_rate: 0.784

@@ -1,0 +1,26 @@
+name: notes_generator
+
+channels:
+  - conda-forge
+  - pytorch
+  - roebel
+  - defaults
+dependencies:
+  - python==3.7.10
+  - numpy==1.18.1
+  - scikit-learn==0.22.1
+  - scipy==1.4.1
+  - pysoundfile==0.10.3.post1
+  - librosa==0.8.1
+  - pytorch==1.7.1=py3.7_cuda10.1.243_cudnn7.6.3_0
+  - torchvision==0.8.2=py37_cu101
+  - torchaudio==0.7.2
+  - pandas==0.25.3
+  - tensorboard==2.1.1
+  - mir_eval==0.6
+  - matplotlib==3.3.4
+  - ignite==0.3.0
+  - pytest==5.3.5
+  - pytest-mock==3.1.0
+  - mido==1.2.9
+  - mlflow==1.24.0

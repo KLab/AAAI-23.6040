@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 100
+exclude = '''
+(
+    migrations
+    | .mypy_cache
+    | .pytest_cache
+    | .tox
+    | venv
+)
+'''
