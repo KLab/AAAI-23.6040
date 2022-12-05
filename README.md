@@ -1,6 +1,8 @@
 # GenéLive! Generating Rhythm Actions in Love Live!
 
-This repository provides the source code and trained model to reproduce the datasets and results in our paper entitled "GenéLive! Generating Rhythm Actions in Love Live!", which is to appear at [AAAI-23](https://aaai.org/Conferences/AAAI-23).
+This repository provides the source code and trained model to reproduce the results in the following paper:
+
+Atsushi Takada, Daichi Yamazaki, Likun Liu, Yudai Yoshida, Nyamkhuu Ganbat, Takayuki Shimotomai, Taiga Yamamoto, Daisuke Sakurai, Naoki Hamada, "GenéLive! Generating Rhythm Actions in Love Live!", [DOI: 10.48550/arXiv.2202.12823](https://doi.org/10.48550/arXiv.2202.12823), to appear at [AAAI-23](https://aaai.org/Conferences/AAAI-23).
 
 
 ## Implementations of the Proposed Method
@@ -243,5 +245,5 @@ See `figure.ipynb` file.
 
 ## License
 
-- The code in `notes_generator/ddc/` directory is re-distributed under the MIT License by Chris Donahue. See `notes_generator/ddc/LICENSE` file for more information.
+- The code in `notes_generator/ddc/` directory is re-distributed under the MIT License by Chris Donahue. See `notes_generator/ddc/LICENSE` file and [the original repository](https://github.com/chrisdonahue/ddc) for more information.
 - The other code is distributed under the MIT License by KLab Inc. See `LICENSE` file for more information.
