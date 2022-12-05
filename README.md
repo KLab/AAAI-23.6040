@@ -1,6 +1,6 @@
 # GenéLive! Generating Rhythm Actions in Love Live!
 
-This repository provides the source code and pre-trained models to reproduce the datasets and results in our paper titled "GenéLive! Generating Rhythm Actions in Love Live!".
+This repository provides the source code and trained models to reproduce the datasets and results in our paper entitled "GenéLive! Generating Rhythm Actions in Love Live!".
 
 
 ## Implementations of the Proposed Method
