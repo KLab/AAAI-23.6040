@@ -42,18 +42,18 @@ We recommend Miniconda, see [Conda official site](https://docs.conda.io/en/lates
 
 ### Installation
 
-1. Create and activate conda environment
+1. Create and activate a new conda environment
    ```sh
    conda create -n my-mlflow
    conda activate my-mlflow
    ```
-2. Install Mlflow to created environment
+2. Install Mlflow to the created environment
    ```sh
    conda install mlflow
    ```
 3. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/KLab/AAAI-23.6040.git
    ```
 
 
