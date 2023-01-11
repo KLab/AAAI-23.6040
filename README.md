@@ -9,7 +9,7 @@ Atsushi Takada, Daichi Yamazaki, Likun Liu, Yudai Yoshida, Nyamkhuu Ganbat, Taka
 
 The proposed method contains two novel techniques:
 * _Beat guide_ is implemented in `notes_generator/models/beats.py` file.
-* _Multi-scale conv-stack_ is implemented as `ConvStackV7` in `notes_generator/layers/base_layers.py` file.
+* _Multi-scale conv-stack_ is implemented as `ConvStackV7` class in `notes_generator/layers/base_layers.py` file.
 
 
 ## Getting Started
