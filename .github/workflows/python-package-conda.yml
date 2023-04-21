@@ -16,12 +16,17 @@ jobs:
         python-version: '3.7'
     - name: Add conda to system path
       run: |
-        sudo apt-get install -y libsndfile1
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        conda env update --file conda.yaml --name base
+        sudo apt-get install -y libsndfile1
+        conda create -n my-mlflow
+        conda activate my-mlflow
+        conda install -c conda-forge mlflow
+    - name: Test data fetching
+      run: |
+        mlflow run -e fetch --experiment-name fetch .
     - name: Lint with flake8
       run: |
         conda install flake8
