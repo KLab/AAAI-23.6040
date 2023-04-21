@@ -16,7 +16,7 @@ jobs:
         python-version: '3.7'
     - name: Add conda to system path
       run: |
-        apt-get install -y libsndfile1
+        sudo apt-get install -y libsndfile1
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
