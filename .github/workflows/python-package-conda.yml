@@ -21,8 +21,6 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install -y libsndfile1
-        conda create -n my-mlflow
-        conda activate my-mlflow
         conda install -c conda-forge mlflow
     - name: Test data fetching
       run: |
