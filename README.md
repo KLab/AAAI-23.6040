@@ -47,9 +47,9 @@ We recommend Miniconda, see [Conda official site](https://docs.conda.io/en/lates
    conda create -n my-mlflow
    conda activate my-mlflow
    ```
-2. Install Mlflow to the created environment
+2. Install MLflow to the created environment
    ```sh
-   conda install mlflow
+   conda install -c conda-forge mlflow
    ```
 3. Clone the repo
    ```sh
