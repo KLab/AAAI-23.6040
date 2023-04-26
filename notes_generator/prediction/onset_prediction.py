@@ -33,7 +33,6 @@ def predict_proba(
     device: str = "cpu",
 ):
     model.eval()
-    is_v3 = hasattr(model, "conv_stack_type") and model.conv_stack_type == ConvStackType.v3
     with torch.no_grad():
         mel = torch.tensor(mel)
         mel = mel.reshape(1, mel.shape[0], mel.shape[1]).float().to(device)

@@ -57,7 +57,7 @@ def prediction_main(
         1,
         enable_condition=True,
         enable_beats=True,
-        conv_stack_type=ConvStackType.v3,
+        conv_stack_type=ConvStackType.v7,
         num_layers=2,
         onset_weight=64,
         dropout=0.5,
